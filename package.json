@@ -1,0 +1,17 @@
+{
+  "name": "risc-i-sandbox",
+  "version": "1.0.0",
+  "description": "A RISC-I Editor and Interpreter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Peter Farrell",
+  "license": "ISC",
+  "dependencies": {
+    "risc-i-sandbox": "file:"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5"
+  }
+}
